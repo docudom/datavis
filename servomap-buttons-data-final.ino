@@ -95,35 +95,35 @@ void loop() {
     pressedButton =  2;
   }
 
-  if(digitalRead(button3Pin) == LOW) // Button 1 pressed 
+  if(digitalRead(button3Pin) == LOW) // Button 3 pressed 
   { 
     digitalWrite(ledPin, HIGH);
     Serial.println("Button 3 pressed");
     pressedButton =  3;
   }
   
-  if (digitalRead(button4Pin) == LOW) // Button 2 pressed 
+  if (digitalRead(button4Pin) == LOW) // Button 4 pressed 
   { 
     digitalWrite(ledPin, LOW);
     Serial.println("Button 4 pressed");
     pressedButton =  4;
   }
 
-  if(digitalRead(button5Pin) == LOW) // Button 1 pressed 
+  if(digitalRead(button5Pin) == LOW) // Button 5 pressed 
   { 
     digitalWrite(ledPin, HIGH);
     Serial.println("Button 5 pressed");
     pressedButton =  5;
   }
   
-  if (digitalRead(button6Pin) == LOW) // Button 2 pressed 
+  if (digitalRead(button6Pin) == LOW) // Button 6 pressed 
   { 
     digitalWrite(ledPin, LOW);
     Serial.println("Button 6 pressed");
     pressedButton =  6;
   }
 
-  if (digitalRead(button7Pin) == LOW) // Button 2 pressed 
+  if (digitalRead(button7Pin) == LOW) // Button 7 pressed 
   { 
     digitalWrite(ledPin, LOW);
     Serial.println("Button 7 pressed");
@@ -131,7 +131,7 @@ void loop() {
   }
   
   if(pressedButton == 0){
-    Serial.println("press a button you twat ");
+    Serial.println("press a button");
   }
   
   if(pressedButton > 0){
